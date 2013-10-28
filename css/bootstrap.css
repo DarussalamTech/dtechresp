@@ -5997,6 +5997,7 @@ body.modal-open,
   position: relative;
   width: 100%;
   overflow: hidden;
+  margin-top:58px !important;
 }
 
 .carousel-inner > .item {
@@ -6057,16 +6058,15 @@ body.modal-open,
   top: 0;
   bottom: 0;
   left: 0;
-  width: 15%;
+  max-width: 100%;
   font-size: 20px;
-  color: #ffffff;
-  text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
   opacity: 0.5;
   filter: alpha(opacity=50);
 }
 
 .carousel-control.left {
+	left: 10%;
 	outline:none;
   background-image: -webkit-gradient(linear, 0 top, 100% top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.0001)));
   background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.5) 0), color-stop(rgba(0, 0, 0, 0.0001) 100%));
@@ -6078,8 +6078,8 @@ body.modal-open,
 
 .carousel-control.right {
 	outline:none;
-  right: 0;
-  left: auto;
+  right: 10%;
+  left:auto;
   background-image: -webkit-gradient(linear, 0 top, 100% top, from(rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.5)));
   background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.0001) 0), color-stop(rgba(0, 0, 0, 0.5) 100%));
   background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0, rgba(0, 0, 0, 0.5) 100%);
@@ -6097,12 +6097,18 @@ body.modal-open,
   outline:none;
 }
 
+.carousel-control .glyphicon-chevron-left:hover,
+.carousel-control .glyphicon-chevron-right:hover { opacity:1; }
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right { opacity:0.1; }
+
 .carousel-control .icon-prev,
 .carousel-control .icon-next,
 .carousel-control .glyphicon-chevron-left,
 .carousel-control .glyphicon-chevron-right {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   z-index: 5;
   display: inline-block;
@@ -6158,15 +6164,44 @@ body.modal-open,
 .carousel-caption {
   position: absolute;
   right: 15%;
-  bottom: 100px;
   left: 15%;
   z-index: 10;
-  padding-top: 20px;
   padding-bottom: 20px;
   color: #ffffff;
-  text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
+
+.slider_two_content { text-align:center; }
+
+.slider_two_content img { margin-top:40px; max-width:100%; }
+
+.carousel-text, .carousel-text-2, .carousel-text-3 { margin-top:200px; }
+
+.carousel-text h1 { background:#000; padding: 5px 10px; color:#F9CA22; max-width:200px; }
+
+.carousel-text h2 { background:#000; padding: 5px 10px; max-width:120px; }
+
+.carousel-text p { background:#000; color:#F9CA22; padding: 5px 10px; max-width:480px; }
+
+.carousel-text-1 { background-size:contain; background:url(../images/blank_lcd_03.png) center no-repeat; height:478px; margin-top:23px; padding-top:100px; }
+
+.carousel-text-1 h1 { padding: 5px 10px; max-width:170px; margin-left:200px; }
+
+.carousel-text-1 h2 { background:#000; padding: 5px 10px; color:#F9CA22; max-width:240px; margin-left:200px; }
+
+.carousel-text-1 p { background:#000; padding: 5px 10px; max-width:270px; margin-left:200px; }
+
+.carousel-text-2 h1 { padding: 5px 10px; max-width:170px; }
+
+.carousel-text-2 h2 { background:#000; padding: 5px 10px; color:#F9CA22; max-width:210px; }
+
+.carousel-text-2 p { background:#000; padding: 5px 10px; max-width:350px; }
+
+.carousel-text-3 h1 { padding: 5px 10px; }
+
+.carousel-text-3 h2 { background:#000; padding: 5px 10px; color:#F9CA22; max-width:210px; }
+
+.carousel-text-3 p { background:#000; padding: 5px 10px; max-width:450px; }
 
 .carousel-caption .btn {
   text-shadow: none;
@@ -6190,6 +6225,17 @@ body.modal-open,
     bottom: 20px;
   }
 }
+
+@media screen and (max-width: 400px) { .carousel-control.right { right:20% !important; } }
+
+@media screen and (max-width: 768px){
+	.carousel-text-1 h1 { margin-left:10px; }
+  
+  .carousel-text-1 h2 { margin-left:10px; }
+  
+  .carousel-text-1 p { margin-left:10px; }
+
+  }
 
 .clearfix:before,
 .clearfix:after {

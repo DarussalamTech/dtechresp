@@ -35,15 +35,15 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#"><img src="images/logo_03.png"></a>
+              <a class="navbar-brand" href="#myCarousel"><img src="images/logo_03.png"></a>
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li><a href="#">HOME</a></li>
+                <li><a href="#myCarousel">HOME</a></li>
                 <li><a href="#about">ABOUT US</a></li>
-                <li><a href="#contact">OUR SERVICES</a></li>
-                <li><a href="#contact">OUR WORK</a></li>
-                <li><a href="#contact">CONTACT US</a></li>
+                <li><a href="#services">OUR SERVICES</a></li>
+                <li><a href="#portfolio">OUR WORK</a></li>
+                <li><a href="#contact_us">CONTACT US</a></li>
               </ul>
             </div>
           </div>
@@ -61,8 +61,8 @@
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
       </ol>
       <div class="carousel-inner">
         <div class="item active">
@@ -70,7 +70,7 @@
           <div class="container">
             <div class="carousel-caption">
             	<div class="slider_two_content">
-            		<img src="images/make_smarter_03.png" height="379" width="670" />
+            		<img src="images/make_smarter_03.png" />
                 </div>
             </div>
           </div>
@@ -79,8 +79,11 @@
           <img src="images/02.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            	<div class="carousel-text">
+               		<h1>Interactive</h1>
+                    <h2>Games</h2>
+                 	<p>We create educational entertainment for children.</p>
+             	</div>
             </div>
           </div>
         </div>
@@ -88,8 +91,11 @@
           <img src="images/03.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              	<div class="carousel-text-1">
+               		<h1>Design</h1>
+                    <h2>We are D-tech!</h2>
+                 	<p>Making start-up life easier</p>
+             	</div>
             </div>
           </div>
         </div>
@@ -97,8 +103,11 @@
           <img src="images/04.jpg" alt="Fourth slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              	<div class="carousel-text-2">
+               		<h1>Design</h1>
+                    <h2>Applications</h2>
+                 	<p>We make mobile worth your while.</p>
+             	</div>
             </div>
           </div>
         </div>
@@ -106,8 +115,11 @@
           <img src="images/05.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              	<div class="carousel-text-3">
+               		<h1>Content Management System</h1>
+                    <h2>Applications</h2>
+                 	<p>User friendly dashboard for managing content</p>
+             	</div>
             </div>
           </div>
         </div>
@@ -179,29 +191,29 @@
                 <h1>Our Portfolio</h1>
             </div>
       		<div class="row">
-                    <div class="col-lg-3">
-                     	<a href="#"><img src="images/port/thumbs/t1.jpg" /></a>
+                    <div class="col-lg-3 thumbs overall">
+                     	<a href="#"><img src="images/opacity_03.png" max-height="250px" max-width="242px" style="opacity:0; padding: 0; margin-left: -15px !important;" class="bottom" /></a>
                     </div><!-- /.col-lg-4 -->
-                    <div class="col-lg-3">
-                      	<a href="#"><img src="images/port/thumbs/t2.jpg" /></a>
+                    <div class="col-lg-3 thumbs overall-0">
+                      	<a href="#"><img src="images/opacity_03.png" max-height="250px" max-width="242px" style="opacity:0; padding: 0; margin-left: -15px !important;" class="bottom" /></a>
                     </div><!-- /.col-lg-4 -->
-                    <div class="col-lg-3">
-                      	<a href="#"><img src="images/port/thumbs/t3.jpg" /></a>
+                    <div class="col-lg-3 thumbs overall-1">
+                      	<a href="#"><img src="images/opacity_03.png" max-height="250px" max-width="242px" style="opacity:0; padding: 0; margin-left: -15px !important;" class="bottom" /></a>
                     </div><!-- /.col-lg-4 -->
-                    <div class="col-lg-3">
-                      	<a href="#"><img src="images/port/thumbs/t4.jpg" /></a>
+                    <div class="col-lg-3 thumbs overall-2">
+                      	<a href="#"><img src="images/opacity_03.png" max-height="250px" max-width="242px" style="opacity:0; padding: 0; margin-left: -15px !important;" class="bottom" /></a>
                     </div>
-                    <div class="col-lg-3">
-                     	<a href="#"><img src="images/port/thumbs/t5.jpg" /></a>
+                    <div class="col-lg-3 thumbs overall-3">
+                     	<a href="#"><img src="images/opacity_03.png" max-height="250px" max-width="242px" style="opacity:0; padding: 0; margin-left: -15px !important;" class="bottom" /></a>
                     </div><!-- /.col-lg-4 -->
-                    <div class="col-lg-3">
-                      	<a href="#"><img src="images/port/thumbs/t6.jpg" /></a>
+                    <div class="col-lg-3 thumbs overall-4">
+                      	<a href="#"><img src="images/opacity_03.png" max-height="250px" max-width="242px" style="opacity:0; padding: 0; margin-left: -15px !important;" class="bottom" /></a>
                     </div><!-- /.col-lg-4 -->
-                    <div class="col-lg-3">
-                      	<a href="#"><img src="images/port/thumbs/t7.jpg" /></a>
+                    <div class="col-lg-3 thumbs overall-5">
+                      	<a href="#"><img src="images/opacity_03.png" max-height="250px" max-width="242px" style="opacity:0; padding: 0; margin-left: -15px !important;" class="bottom" /></a>
                     </div><!-- /.col-lg-4 -->
-                    <div class="col-lg-3">
-                      	<a href="#"><img src="images/port/thumbs/t8.jpg" /></a>
+                    <div class="col-lg-3 thumbs overall-6">
+                      	<a href="#"><img src="images/opacity_03.png" max-height="250px" max-width="242px" style="opacity:0; padding: 0; margin-left: -15px !important;" class="bottom" /></a>
                     </div>
           	</div>
       	</div>
@@ -214,11 +226,11 @@
                     <div class="col-lg-5">
                     	<div class="left_contact">
                             <div class="contact_input">
-                                <label>Full Name</label>
+                                <label>Full Name (<span style="color:red">*</span>)</label>
                               	<input type="text" id="ContactForm_name" class="contact_text" name="ContactForm[name]" />
                             </div>
                             <div class="contact_input">
-                                <label>Your Email</label>
+                                <label>Your Email (<span style="color:red">*</span>)</label>
                               	<input type="text" id="ContactForm_email" class="contact_text" name="ContactForm[email]" />
                             </div>
                             <div class="contact_input">
@@ -235,7 +247,21 @@
                     <div class="col-lg-6">
                     	<div class="right_contact">
                         	<div class="quotation">
-                            	<img src="images/contact_content_03.png">
+                            	<div class="social_media_images">
+                                	<div class="tweet_hover">
+                                		<a href="#"><img src="images/tweeter_img_03.png"></a>
+                                   	</div>
+                                    <div class="facebook_hover">
+                                		<a href="#"><img src="images/facebook_big_img_03.png"></a>
+                                   	</div>
+                                    <div class="google_hover">
+                                		<a href="#"><img src="images/google_img_03.png"></a>
+                                   	</div>
+                                    <div class="linkedin_hover">
+                                		<a href="#"><img src="images/linkedin_big_img_03.png"></a>
+                                   	</div>
+                                </div>
+                            	<img src="images/contact_content_03.png" class="contact_content" />
                                	<ul>
                                 	<li><a href="mailto:info@dtechsystems.co.uk">info@dtechsystems.co.uk</a></li>
                                     <li><a href="mailto:support@dtechsystems.co.uk">support@dtechsystems.co.uk</a></li>
